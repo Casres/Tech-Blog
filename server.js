@@ -25,11 +25,14 @@ const SequelizeStore = require("connect-session-sequelize")(session.Store);
 const sess = {
   secret: "Super Secret Secret",
   cookie: {},
-  resave: false,
+  resave: true,
   saveUninitialized: true,
   store: new SequelizeStore({
     db: sequelize,
   }),
+  cookie: {
+    expires: 20 * 1000,
+ }
 };
 
 app.use(session(sess));

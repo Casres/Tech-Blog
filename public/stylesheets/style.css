@@ -1,6 +1,7 @@
 :root {
     --orange: #FE6F27;
-    --orangeHover: #225ca3;
+    --blueHover: #225ca3;
+    --accentColor: #272727;
 }
 
 * {
@@ -14,7 +15,7 @@ html {
     margin: 0;
     font-family: sans-serif;
     color: #ffffff;
-    background-color: #2F2F2F
+    background-color: #2F2F2F;
 }
 
 a {
@@ -25,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: var(--orangeHover);
+    color: var(--blueHover);
 }
 
 button {
@@ -51,7 +52,6 @@ button:hover {
 
 .post-item {
     margin: 1rem 0 4rem 0;
-    /* border: #90aed3 solid 0.25rem; */
 }
 
 textarea,
@@ -90,10 +90,13 @@ form label {
 }
 
 .jumbo-tron {
-    background-color: #1f9c13;
-    width: 100vw;
-    float: left;
+    background-color: var(--accentColor);
+    box-shadow: -30px 8px 18px -3px var(--accentColor);
 }
+
+/* .title-post {
+    padding-right: 15rem;
+} */
 
 header {
     display: flex;
@@ -144,7 +147,7 @@ main {
 
 .btn-no-style:hover {
     background: none;
-    color: var(--orangeHover);
+    color: var(--blueHover);
 }
 
 .delete-post-btn {
@@ -205,6 +208,25 @@ main {
 
 .edit-post-form {
     margin-bottom: 5%;
+}
+
+.title {
+    display: flex;
+    background-color: var(--accentColor);
+    justify-content: space-between;
+}
+
+.title-post-info {
+    display: flex;
+    flex-direction: row;
+}
+
+#post-info {
+    padding-right: 0.5rem;
+}
+
+#post-link {
+    padding-right: 1.23rem;
 }
 
 footer {
