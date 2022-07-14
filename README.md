@@ -6,12 +6,6 @@
 Login/creating a post/editing post and viewing link attached to post
 https://user-images.githubusercontent.com/87106988/179117506-35cae41d-b1f7-44b5-b9cc-6f8c74d5b187.mov
 
-Adding and deleting a comment on a post
-https://user-images.githubusercontent.com/87106988/179117659-e19d2f5a-60a6-45d2-ad97-e3677a39d825.mov
-
-Login and logout finctionality
-https://user-images.githubusercontent.com/87106988/179117392-5111db65-58c7-4086-8306-c14639297988.mov
-
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
