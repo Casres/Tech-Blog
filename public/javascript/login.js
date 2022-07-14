@@ -18,7 +18,7 @@ async function signUpFormHandler(event) {
         });
         // checks the response status
         if (response.ok) {
-            console.log('successfully added account');
+            document.location.replace('/');
         } else {
             alert(response.statusText);
         }
