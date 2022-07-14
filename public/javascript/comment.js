@@ -23,7 +23,6 @@ async function commentClickHandler(event) {
 
     if (response.ok) {
       document.location.reload();
-      alert('hi')
     } else {
       alert(response.statusText);
     }
