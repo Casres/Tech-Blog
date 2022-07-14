@@ -15,7 +15,7 @@ const sequelize = require("./config/connection");
 
 // servers
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 300;
 
 // makes a session (a cookie) from the server (express)
 const session = require("express-session");
