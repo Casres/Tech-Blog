@@ -31,7 +31,7 @@ const sess = {
     db: sequelize,
   }),
   cookie: {
-    expires: 20 * 1000,
+    expires: 2000 * 1000,
  }
 };
 
