@@ -10,7 +10,7 @@ async function commentClickHandler(event) {
   ];
 
   if (comment_text) {
-    const response = await fetch("/api/comment", {
+    const response = await fetch("/api/comment/", {
       method: "POST",
       body: JSON.stringify({
         post_id,
@@ -23,6 +23,7 @@ async function commentClickHandler(event) {
 
     if (response.ok) {
       document.location.reload();
+      alert('hi')
     } else {
       alert(response.statusText);
     }
@@ -32,5 +33,5 @@ async function commentClickHandler(event) {
 }
 
 document
-  .querySelector(".comments")
+  .querySelector(".comment-btn")
   .addEventListener("click", commentClickHandler);
