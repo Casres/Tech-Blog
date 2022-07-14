@@ -98,7 +98,7 @@ router.post("/logout", withAuth, (req, res) => {
 });
 
 // to create a user
-router.post("/", withAuth, (req, res) => {
+router.post("/signup", (req, res) => {
   User.create({
     username: req.body.username,
     email: req.body.email,
