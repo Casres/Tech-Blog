@@ -1,6 +1,10 @@
 
 # **Tech-Blog**
 
+## **demo**
+https://user-images.githubusercontent.com/87106988/179117134-7c2891d4-60fb-40d5-ae8d-f8b93df438c3.mov
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## **Table of contents**
@@ -40,6 +44,9 @@ Reach out via my github or through the issues tab here.
 
 ## **FAQ**
 To find any FAQs go to the issues tab. 
+
+
+
 
 ## **How-to-contribute**
 Submit issues with your code to the repository and I'll be sure to check them out 
