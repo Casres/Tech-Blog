@@ -5,7 +5,7 @@
 
 ## **Table of contents**
 - [Description](#Description)
-- [Languages](#Languages) 
+- [Languages](#Languages)
 - [Usage](#Usage)
 - [Installation](#Installation)
 - [Contact Information](#Contact)
